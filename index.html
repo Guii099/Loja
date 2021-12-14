@@ -8,20 +8,137 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
 
-<body>
+<body class="corpo">
+    <nav class="navbar">
+        <div>
+            <h4 class="logo">GameHouse</h4>
+        </div>
+        <ul class="navlink">
+            <li>
+                <a href="#">CS:GO</a>
+            </li>
+            <li>
+                <a href="#">Valorant</a>
+            </li>
+            <li>
+                <a href="#">LOL</a>
+            </li>
+            <li>
+                <a href="#">Fortnite</a>
+            </li>
 
-    <header>
-        <nav>
-            <img src="./images/1.png" alt="" srcset="">
-            <input class="btn" type="button" value="CSGO">
-            <input class="btn" type="button" value="Valorant">
-            <input class="btn" type="button" value="LOL">
-            <input class="btn" type="button" value="Fortnite">
-            <input class="btn" type="button" value="Jogo Favorito">
-        </nav>
-    </header>
+        </ul>
+    </nav>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="./images/cs.png" alt="Primeiro Slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="./images/fortnite.jpg" alt="Segundo Slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="./images/lol.jpg" alt="Terceiro Slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="./images/valorant.jpg" alt="Quarto Slide">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Próximo</span>
+        </a>
+    </div>
+    <div class="grid">
+        <div class="item">
+            <img src="./images/scs6.png" alt="">
+            <h2>AK 47 Fire Serpent</h2>
+            <p>R$90,00</p>
+            <a href="">Comprar</a>
+        </div>
+        <div class="item">
+            <img src="./images/scs5.png" alt="">
+            <h2>M4A4 HOWL</h2>
+            <p>R$200,00</p>
+            <a href="">Comprar</a>
+        </div>
+        <div class="item">
+            <img src="./images/scs4.png" alt="">
+            <h2>AWP Dragon Lore</h2>
+            <p>R$ 2.000</p>
+            <a href="">Comprar</a>
+        </div>
+        <div class="item">
+            <img src="./images/sl1.png" alt="">
+            <h2>Yasuo</h2>
+            <p>R$10,00</p>
+            <a class="comprar" href="">Comprar</a>
+        </div>
+        <div class="item">
+            <img src="./images/sl1.png" alt="">
+            <h2>Yasuo</h2>
+            <p>R$90,00</p>
+            <a href="">Comprar</a>
+        </div>
+        <div class="item">
+            <img src="./images/sl1.png" alt="">
+            <h2>Yasuo</h2>
+            <p>R$50,00</p>
+            <a href="">Comprar</a>
+        </div>
+        <div class="item">
+            <img src="./images/sv2.png" alt="">
+            <h2>Sage</h2>
+            <p>R$50,00</p>
+            <a href="">Comprar</a>
+        </div>
+        <div class="item">
+            <img src="./images/sv2.png" alt="">
+            <h2>Sage</h2>
+            <p>R$500,00</p>
+            <a href="">Comprar</a>
+        </div>
+        <div class="item">
+            <img src="./images/sv2.png" alt="">
+            <h2>Sage</h2>
+            <p>R$20,00</p>
+            <a href="">Comprar</a>
+        </div>
+        <div class="item">
+            <img src="./images/sf1.png" alt="">
+            <h2>Zombie</h2>
+            <p>R$200,00</p>
+            <a href="">Comprar</a>
+        </div>
+        <div class="item">
+            <img src="./images/sf1.png" alt="">
+            <h2>Zombie</h2>
+            <p>R$200,00</p>
+            <a href="">Comprar</a>
+        </div>
+        <div class="item">
+            <img src="./images/sf1.png" alt="">
+            <h2>Zombie</h2>
+            <p>R$200,00</p>
+            <a href="">Comprar</a>
+        </div>
 
 
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 
 </html>
