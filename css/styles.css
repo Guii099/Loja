@@ -96,6 +96,28 @@ img {
 }
 
 p {
-    font-size: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.titulo {
+    text-align: center;
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.rodape {
+    margin: 20px 10px;
+    background-color: #022B3A;
+    height: 30vh;
+    border-radius: 5px;
+}
+
+.rodapetext {
+    color: white;
+    text-align: center;
+    display: block;
+    padding-top: 35px;
     font-weight: bold;
 }
